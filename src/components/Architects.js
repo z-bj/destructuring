@@ -1,8 +1,7 @@
 import React from "react";
 
 const Users = (props) => {
-  const name = props.name;
-  const age = props.age;
+  const { name, age } = props;
   console.log(name, age);
   return (
     <div>
