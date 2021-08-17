@@ -1,12 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Users = ({ name, age }) => {
-  console.log(name, age);
-  return (
-    <div>
-      <p>Architect:</p>
-    </div>
-  );
-};
+class Users extends Component {
+  render() {
+    return (
+      <div>
+        <p>Architect:</p>
+      </div>
+    );
+  }
+}
 
 export default Users;
