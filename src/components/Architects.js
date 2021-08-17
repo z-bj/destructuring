@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 
-class Users extends Component {
+class Architect extends Component {
   render() {
+    const { name, age } = this.props;
     return (
       <div>
-        <p>
-          Architect:{this.props.name} {this.props.age}
-        </p>
+        <p>{`${name} is ${age} years old`}</p>
       </div>
     );
   }
 }
 
-export default Users;
+export default Architect;
