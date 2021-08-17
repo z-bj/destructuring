@@ -1,5 +1,5 @@
-import { Component } from "react";
-import React from "react";
+import { Component, React } from "react";
+
 import Users from "./Architects";
 
 class Display extends Component {
